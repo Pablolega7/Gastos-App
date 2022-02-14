@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    background:url(https://www.10wallpaper.com/wallpaper/1920x1080/1308/tranquility-Landscape_Pics_HD_Wallpaper_1920x1080.jpg);
+}
+
+.fontTitulo{
+    font-family: 'Estonia', cursive;
+    color:blue;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.textError{
+    font-size: 1rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
